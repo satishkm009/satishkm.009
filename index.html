@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satish Kumar Mahto | Cyber Security Professional</title>
+    <meta
+      name="description"
+      content="Cybersecurity portfolio for Satish Kumar Mahto featuring experience, certifications, projects, and contact details."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-left"></div>
+      <div class="ambient ambient-right"></div>
+      <div class="grid-overlay" aria-hidden="true"></div>
+
+      <header class="site-header">
+        <a class="brand" href="#top">
+          <span class="brand-mark">SM</span>
+          <span class="brand-copy">
+            <strong>Satish Kumar Mahto</strong>
+            <small>Cyber Security Professional</small>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#expertise">Expertise</a>
+          <a href="#journey">Journey</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <div class="nickname-banner" aria-label="Nickname banner">
+        <span class="nickname-logo" data-text="MR HACKER">MR HACKER</span>
+      </div>
+
+      <main id="top">
+        <section class="hero section">
+          <div class="hero-copy panel">
+            <p class="eyebrow">HTB-inspired profile system</p>
+            <h1>
+              Building resilient systems with offensive mindset and forensic
+              precision.
+            </h1>
+            <p class="lede" id="intro-text"></p>
+
+            <div class="hero-status">
+              <div class="status-card">
+                <span class="status-label">Active Role</span>
+                <strong id="role-rotator"></strong>
+              </div>
+              <div class="status-card">
+                <span class="status-label">Base Location</span>
+                <strong id="location-text"></strong>
+              </div>
+              <div class="status-card">
+                <span class="status-label">Focus Stack</span>
+                <strong>VAPT / DFIR / OSINT</strong>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contact">Initiate Contact</a>
+              <a
+                class="button button-secondary"
+                href="./assets/resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open Resume
+              </a>
+            </div>
+          </div>
+
+          <aside class="hero-visual panel">
+            <div class="portrait-wrap">
+              <img
+                class="portrait"
+                src="./assets/profile.jpeg"
+                alt="Portrait of Satish Kumar Mahto"
+              />
+              <div class="portrait-ring portrait-ring-one"></div>
+              <div class="portrait-ring portrait-ring-two"></div>
+            </div>
+
+            <div class="terminal-card">
+              <div class="terminal-topbar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="terminal-body" id="terminal-feed"></div>
+            </div>
+          </aside>
+        </section>
+
+        <section class="metrics section" aria-label="Key metrics">
+          <div class="section-heading">
+            <p class="eyebrow">Mission metrics</p>
+            <h2>Evidence-backed signal from the CV</h2>
+          </div>
+          <div class="metrics-grid" id="metrics-grid"></div>
+        </section>
+
+        <section class="section" id="expertise">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Skill matrix</p>
+              <h2>Core capability clusters</h2>
+            </div>
+            <div class="filter-bar" id="skill-filters"></div>
+          </div>
+          <div class="skill-grid" id="skill-grid"></div>
+        </section>
+
+        <section class="section" id="journey">
+          <div class="section-heading">
+            <p class="eyebrow">Operational timeline</p>
+            <h2>Experience and education path</h2>
+          </div>
+          <div class="journey-layout">
+            <div class="timeline-column">
+              <h3>Experience</h3>
+              <div class="timeline" id="experience-timeline"></div>
+            </div>
+            <div class="timeline-column">
+              <h3>Education</h3>
+              <div class="timeline" id="education-timeline"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="certifications">
+          <div class="section-heading">
+            <p class="eyebrow">Validation layer</p>
+            <h2>Certifications, achievements, and community signal</h2>
+          </div>
+
+          <div class="spotlight-grid">
+            <article class="panel spotlight-panel">
+              <h3>Certifications</h3>
+              <div class="badge-cloud" id="certification-cloud"></div>
+            </article>
+
+            <article class="panel spotlight-panel">
+              <h3>Achievements</h3>
+              <div class="stack-list" id="achievement-list"></div>
+            </article>
+
+            <article class="panel spotlight-panel">
+              <h3>Conferences & Workshops</h3>
+              <div class="stack-list" id="community-list"></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div class="contact-copy">
+            <p class="eyebrow">Direct channel</p>
+            <h2>Available for security engineering, analyst, and research roles.</h2>
+            <p>
+              Reach out for cybersecurity engineering, digital forensics,
+              incident response, or research-oriented opportunities.
+            </p>
+          </div>
+
+          <div class="contact-panel panel">
+            <div class="contact-grid" id="contact-grid"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Designed for Satish Kumar Mahto with a cyber-lab visual direction.</p>
+        <p id="footer-year"></p>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
